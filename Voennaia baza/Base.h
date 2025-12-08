@@ -1,14 +1,17 @@
 #pragma once
-class Base
+#include "Vecihle.h"
+#include <iostream>
+using namespace std;
+class Base : public Vecihle
 {
-protected:
 	static int people_on_base;
 	static int vehicles_on_base;
 	static double petrol_on_base;
 	static double goods_on_base;
 public:
-	Base() {};
-	static void Print();
-	static void Init();
+	void Init();
+	void Print();
+	virtual void arrive() { cout << "Base"; };
+	virtual bool leave() { cout << "Leave Base"; };
 };
 

@@ -14,6 +14,14 @@ void Bus::arrive()
 {
     cout << "Bus pribul" << endl;
     people += 10;
+    cout << "Count People Stalo: " << people;
+}
+
+bool Bus::leave()
+{
+    cout << "leave base NATO" << endl;
+    people -= 20;
+    return false;
 }
 
 

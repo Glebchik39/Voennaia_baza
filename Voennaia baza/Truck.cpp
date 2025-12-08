@@ -17,3 +17,15 @@ double Truck::getMaxLoad()
 {
 	return max_load;
 }
+
+void Truck::arrive()
+{
+	cout << "Pribul na bazu NATO TRUCK";
+}
+
+
+bool Truck::leave()
+{
+	cout << "Leave BASE NATO";
+	return false;
+}

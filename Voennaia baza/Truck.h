@@ -13,6 +13,6 @@ public:
 	double getCurrentLoad();
 	double getMaxLoad();
 	void arrive();
-	void leave();
+	bool leave();
 };
 
