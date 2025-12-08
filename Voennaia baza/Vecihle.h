@@ -11,6 +11,8 @@ public:
 	double getPetrolAmount();
 	virtual void arrive() = 0;
 	virtual bool leave() = 0;
+	virtual void Print();
+    virtual void Init();
 	//void Print();
 	//void Init();
 };

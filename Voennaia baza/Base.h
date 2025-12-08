@@ -4,14 +4,15 @@
 using namespace std;
 class Base : public Vecihle
 {
+private:
 	static int people_on_base;
 	static int vehicles_on_base;
 	static double petrol_on_base;
 	static double goods_on_base;
 public:
-	void Init();
-	void Print();
-	virtual void arrive() { cout << "Base"; };
-	virtual bool leave() { cout << "Leave Base"; };
+	static void Init();
+	static void Print();
+	void arrive() { cout << "Base"; };
+    bool leave() { cout << "Leave Base"; return false; };
 };
 

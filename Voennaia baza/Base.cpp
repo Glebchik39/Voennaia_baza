@@ -10,7 +10,7 @@ void Base::Print()
 	cout << "goods on base: " << goods_on_base << endl;
 }
 
-void Base::Init()
+ void Base::Init()
 {
 	cout << "Enter a people on base: ";
 	cin >> people_on_base;

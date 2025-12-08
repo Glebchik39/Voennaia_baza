@@ -10,6 +10,7 @@ class Truck: public Vecihle
 	double max_petrol;
 public:
 	Truck(double l, double mxl, double p, double mxp);
+	Truck() = default;
 	double getCurrentLoad();
 	double getMaxLoad();
 	void arrive();
