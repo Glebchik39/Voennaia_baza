@@ -10,9 +10,9 @@ private:
 	static double petrol_on_base;
 	static double goods_on_base;
 public:
-	static void Init();
-	static void Print();
-	void arrive() { cout << "Base"; };
-    bool leave() { cout << "Leave Base"; return false; };
+	//static void Init();
+	//static void Print();
+	void arrive();
+    bool leave();
 };
 

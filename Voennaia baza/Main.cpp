@@ -27,7 +27,8 @@ int main()
 	case 3:
 		vecihle = new Base;
 		vecihle->arrive();
-		vecihle->Init();
-		vecihle->Print();
+		vecihle->leave();
+		//vecihle->Init();
+		//vecihle->Print();
 	}
 }

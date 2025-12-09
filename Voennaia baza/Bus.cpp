@@ -21,6 +21,7 @@ bool Bus::leave()
 {
     cout << "leave base NATO" << endl;
     people -= 20;
+    cout << "Pablo please i need this";
     return false;
 }
 
