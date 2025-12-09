@@ -13,15 +13,15 @@ int Bus::getMaxPeople()
 void Bus::arrive()
 {
     cout << "Bus pribul" << endl;
-    people += 10;
-    cout << "Count People Stalo: " << people;
+    people += 120;
+    cout << "Pribulo na bazu people: " << people << endl;
 }
 
 bool Bus::leave()
 {
     cout << "leave base NATO" << endl;
-    people -= 20;
-    cout << "Pablo please i need this";
+    people -= 120;
+    cout << "Pokinulo bazu people: " << people << endl;
     return false;
 }
 

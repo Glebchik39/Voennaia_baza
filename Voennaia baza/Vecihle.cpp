@@ -8,11 +8,15 @@ Vecihle::Vecihle(double p, double t)
     tank_volume = t;
 }
 
-//Vecihle::Print()
-//{
-//    cout << "Petrol amount: " << petrol_amount << endl;
-//    cout << "Tank volume: " <
-//}
+void Vecihle::Init()
+{
+    cout << "eeeeee";
+}
+
+void Vecihle::Print()
+{
+    cout << "fgfggfgfgfgfg" << endl;
+}
 
 double Vecihle::getTankVolume()
 {

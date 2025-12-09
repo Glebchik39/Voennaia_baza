@@ -20,7 +20,9 @@ double Truck::getMaxLoad()
 
 void Truck::arrive()
 {
-	cout << "Pribul na bazu NATO TRUCK";
+	cout << "Pribul na bazu NATO TRUCK" << endl;
+	petrol += 50.0;
+	cout << "Na bazu pribulo petrol: " << petrol << endl;
 }
 
 

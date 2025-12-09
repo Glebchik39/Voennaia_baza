@@ -1,5 +1,5 @@
 #pragma once
-class Vecihle
+class Vecihle 
 {
 protected:
 	double petrol_amount;
@@ -11,9 +11,7 @@ public:
 	double getPetrolAmount();
 	virtual void arrive() = 0;
 	virtual bool leave() = 0;
+	virtual void Init();
 	virtual void Print();
-    virtual void Init();
-	//void Print();
-	//void Init();
 };
 
