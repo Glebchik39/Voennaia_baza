@@ -28,11 +28,25 @@ int main()
 		vecihle->arrive();
 		break;
 	case 3:
+	
 		vecihle = new Base;
-		//vecihle->arrive();
+		int baseChoice;
+		cout << "Enter your vechiles leave or arrive to base?: 1- arrive, 2- leave" << endl;
+		cin >> baseChoice;
+		if (baseChoice == 1)
+		{
+			vecihle->arrive();
+		}
+		else if (baseChoice == 2)
+		{
+			vecihle->leave();
+		}
+
+		/*vecihle->arrive();*/
 		//vecihle->leave();
 		vecihle->Print();
 		break;
+	
 	case 4:
 		cout << "Exit";
 		break;
