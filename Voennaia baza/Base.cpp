@@ -41,9 +41,10 @@ void Base::arrive()
 
 bool Base::leave()
 {
-	int choice = 0;
-	cout << "Which transport is leaving the base?: 1-Bus 2 - Truck";
-	if (choice == 1)
+	int choiceb = 0;
+	cout << "Which transport is leaving the base?: 1-Bus 2 - Truck" << endl;
+	cin >> choiceb;
+	if (choiceb == 1)
 	{
 		cout << "Bus leaving" << endl;
 		vehicles_on_base -= 1;
@@ -51,7 +52,7 @@ bool Base::leave()
 
 		return true;
 	}
-	if (choice == 2)
+	if (choiceb == 2)
 	{
 		cout << "Truck leaving" << endl;
 		vehicles_on_base -= 1;
