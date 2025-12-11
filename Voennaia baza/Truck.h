@@ -5,9 +5,9 @@ using namespace std;
 class Truck: public Vecihle
 {
 	double load;
-	double max_load;
-	double petrol = 0;
-	double max_petrol;
+	double max_load = 20.0;
+	double petrol;
+	double max_petrol = 90.0;
 public:
 	Truck(double l, double mxl, double p, double mxp);
 	Truck() = default;
