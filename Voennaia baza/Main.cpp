@@ -21,7 +21,18 @@ int main()
 	{
 	case 1:
 		vecihle = new Bus;
-		vecihle->arrive();
+		int choiceBus;
+		cout << "Enter you leaving or arrive?: 1-leaving, 2- arrive";
+		cin >> choiceBus;
+		if (choiceBus == 1)
+		{
+			vecihle->leave();
+		}
+		if (choiceBus == 2)
+		{
+			vecihle->arrive();
+		}
+		//vecihle->arrive();
 		break;
 	case 2:
 		vecihle = new Truck;
